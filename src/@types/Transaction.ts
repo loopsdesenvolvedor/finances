@@ -5,7 +5,7 @@ export type Transaction = {
   title: string;
   status: TransactionStatus;
   amount: number;
-  created_at: Date;
+  created_at: number;
   user_id: number;
 };
 
