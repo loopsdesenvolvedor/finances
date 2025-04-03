@@ -2,7 +2,7 @@ import axios, { AxiosError } from "axios";
 
 type Props = {
   endpoint: string;
-  method: "GET" | "POST" | "PUT" | "DELETE";
+  method?: "GET" | "POST" | "PUT" | "DELETE";
   data?: object;
   withAuth?: boolean;
 };
